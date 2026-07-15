@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="splitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <text x="960" y="70" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="6" fill="#ff2d55">⚠ LIVE</text>
+  <text x="960" y="120" text-anchor="middle" font-family="'Courier New', monospace" font-size="44" font-weight="900" letter-spacing="4" fill="url(#splitGrad)" filter="url(#textGlow)">LIVE DEMO</text>
+  <text x="960" y="165" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#e0e0e8">Show them what you can do — pick one or more demos below</text>
+
+  <!-- Demo options -->
+  <text x="200" y="230" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#a855f7">CHOOSE YOUR DEMO (PICK 1-2):</text>
+
+  <!-- Demo 1: Password Crack -->
+  <rect x="100" y="260" width="550" height="200" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
+  <rect x="100" y="260" width="550" height="4" fill="#ff2d55"/>
+  <text x="375" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#ff2d55">🔓 CRACK A PASSWORD</text>
+  <text x="375" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Use hashcat to crack a weak password hash</text>
+  <text x="375" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Show: hash input → wordlist attack → cracked!</text>
+  <text x="375" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Time: ~30 seconds</text>
+  <rect x="300" y="420" width="150" height="25" rx="4" fill="#ff2d55" opacity="0.15"/>
+  <text x="375" y="438" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#ff2d55">HIGH IMPACT</text>
+
+  <!-- Demo 2: SQL Injection -->
+  <rect x="685" y="260" width="550" height="200" rx="8" fill="#12121a" stroke="#a855f7" stroke-width="1.5"/>
+  <rect x="685" y="260" width="550" height="4" fill="#a855f7"/>
+  <text x="960" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#a855f7">💉 SQL INJECTION</text>
+  <text x="960" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Login to the banking site without a password</text>
+  <text x="960" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Show: normal login fails → injection bypasses auth</text>
+  <text x="960" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Time: ~1 minute</text>
+  <rect x="885" y="420" width="150" height="25" rx="4" fill="#a855f7" opacity="0.15"/>
+  <text x="960" y="438" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#a855f7">CROWD PLEASER</text>
+
+  <!-- Demo 3: Port Scan -->
+  <rect x="1270" y="260" width="550" height="200" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1.5"/>
+  <rect x="1270" y="260" width="550" height="4" fill="#00d4ff"/>
+  <text x="1545" y="305" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#00d4ff">⌖ PORT SCAN</text>
+  <text x="1545" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Scan a target and find open services</text>
+  <text x="1545" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Show: nmap command → services discovered</text>
+  <text x="1545" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Time: ~30 seconds</text>
+  <rect x="1470" y="420" width="150" height="25" rx="4" fill="#00d4ff" opacity="0.15"/>
+  <text x="1545" y="438" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#00d4ff">EASY WIN</text>
+
+  <!-- Demo 4: AI Agent -->
+  <rect x="400" y="500" width="550" height="200" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1.5"/>
+  <rect x="400" y="500" width="550" height="4" fill="#ffd700"/>
+  <text x="675" y="545" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#ffd700">🤖 AI AGENT IN ACTION</text>
+  <text x="675" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Show your custom AI agent running tools</text>
+  <text x="675" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Show: ask agent → it picks tools → executes → reports</text>
+  <text x="675" y="640" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Time: ~1-2 minutes</text>
+  <rect x="600" y="660" width="150" height="25" rx="4" fill="#ffd700" opacity="0.15"/>
+  <text x="675" y="678" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#ffd700">IMPRESSIVE</text>
+
+  <!-- Demo 5: XSS -->
+  <rect x="990" y="500" width="550" height="200" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
+  <rect x="990" y="500" width="550" height="4" fill="#ff2d55"/>
+  <text x="1265" y="545" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#ff2d55">⚡ XSS ATTACK</text>
+  <text x="1265" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Inject a script into the search page</text>
+  <text x="1265" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Show: search field → inject script → alert pops up</text>
+  <text x="1265" y="640" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Time: ~30 seconds</text>
+  <rect x="1190" y="660" width="150" height="25" rx="4" fill="#ff2d55" opacity="0.15"/>
+  <text x="1265" y="678" text-anchor="middle" font-family="'Courier New', monospace" font-size="11" fill="#ff2d55">VISUAL</text>
+
+  <!-- Demo tips -->
+  <rect x="200" y="750" width="1520" height="250" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1"/>
+  <text x="960" y="800" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#ffd700">💡 DEMO TIPS</text>
+
+  <text x="250" y="850" font-family="'Segoe UI', sans-serif" font-size="17" fill="#e0e0e8">1. <tspan fill="#ff2d55">Practice first</tspan> — run through it 2-3 times so you know it works</text>
+  <text x="250" y="885" font-family="'Segoe UI', sans-serif" font-size="17" fill="#e0e0e8">2. <tspan fill="#a855f7">Explain as you go</tspan> — talk the audience through what's happening on screen</text>
+  <text x="250" y="920" font-family="'Segoe UI', sans-serif" font-size="17" fill="#e0e0e8">3. <tspan fill="#00d4ff">Have a backup</tspan> — if the live demo fails, have screenshots ready</text>
+  <text x="250" y="955" font-family="'Segoe UI', sans-serif" font-size="17" fill="#e0e0e8">4. <tspan fill="#ffd700">Keep it short</tspan> — 1-2 minutes max per demo, don't let it drag</text>
+  <text x="250" y="985" font-family="'Segoe UI', sans-serif" font-size="17" fill="#e0e0e8">5. <tspan fill="#ff2d55">End with the impact</tspan> — "This is why weak passwords are dangerous"</text>
+
+  <!-- Corner accents -->
+  <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+</svg>

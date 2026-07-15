@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="splitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Header -->
+  <text x="960" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="6" fill="#8888a0">SHARING KNOWLEDGE</text>
+  <text x="960" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="44" font-weight="900" letter-spacing="4" fill="url(#splitGrad)" filter="url(#textGlow)">CYBER TIPS FOR EVERYONE</text>
+  <text x="960" y="175" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#e0e0e8">What we'd tell our friends and family to stay safe online</text>
+
+  <!-- Tips — big impactful cards -->
+  <!-- Tip 1 -->
+  <rect x="100" y="220" width="550" height="200" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
+  <circle cx="165" cy="290" r="30" fill="#ff2d55" opacity="0.15"/>
+  <text x="165" y="300" text-anchor="middle" font-size="28">🔑</text>
+  <text x="215" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ff2d55">TIP 1: PASSWORDS</text>
+  <rect x="130" y="310" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="375" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Your advice about passwords]</text>
+  <text x="375" y="375" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">e.g. "Use a passphrase, not a password"</text>
+
+  <!-- Tip 2 -->
+  <rect x="685" y="220" width="550" height="200" rx="8" fill="#12121a" stroke="#a855f7" stroke-width="1.5"/>
+  <circle cx="750" cy="290" r="30" fill="#a855f7" opacity="0.15"/>
+  <text x="750" y="300" text-anchor="middle" font-size="28">🎣</text>
+  <text x="800" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#a855f7">TIP 2: PHISHING</text>
+  <rect x="715" y="310" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="960" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Your advice about phishing]</text>
+  <text x="960" y="375" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">e.g. "If it's urgent and unexpected, it's probably fake"</text>
+
+  <!-- Tip 3 -->
+  <rect x="1270" y="220" width="550" height="200" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1.5"/>
+  <circle cx="1335" cy="290" r="30" fill="#00d4ff" opacity="0.15"/>
+  <text x="1335" y="300" text-anchor="middle" font-size="28">🔄</text>
+  <text x="1385" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">TIP 3: UPDATES</text>
+  <rect x="1300" y="310" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="1545" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Your advice about software updates]</text>
+  <text x="1545" y="375" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">e.g. "Updates fix the holes hackers use"</text>
+
+  <!-- Tip 4 -->
+  <rect x="100" y="460" width="550" height="200" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1.5"/>
+  <circle cx="165" cy="530" r="30" fill="#ffd700" opacity="0.15"/>
+  <text x="165" y="540" text-anchor="middle" font-size="28">📱</text>
+  <text x="215" y="520" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ffd700">TIP 4: SOCIAL MEDIA</text>
+  <rect x="130" y="550" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="375" y="585" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Your advice about social media safety]</text>
+  <text x="375" y="615" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">e.g. "What you post is recon for attackers"</text>
+
+  <!-- Tip 5 -->
+  <rect x="685" y="460" width="550" height="200" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
+  <circle cx="750" cy="530" r="30" fill="#ff2d55" opacity="0.15"/>
+  <text x="750" y="540" text-anchor="middle" font-size="28">🛡️</text>
+  <text x="800" y="520" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ff2d55">TIP 5: 2FA</text>
+  <rect x="715" y="550" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="960" y="585" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Your advice about two-factor auth]</text>
+  <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">e.g. "Even if they get your password, 2FA stops them"</text>
+
+  <!-- Tip 6 (bonus) -->
+  <rect x="1270" y="460" width="550" height="200" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="1335" cy="530" r="30" fill="#00d4ff" opacity="0.15"/>
+  <text x="1335" y="540" text-anchor="middle" font-size="28">➕</text>
+  <text x="1385" y="520" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">TIP 6: [YOUR CHOICE]</text>
+  <rect x="1300" y="550" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="1545" y="585" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Add your own tip!]</text>
+  <text x="1545" y="615" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[WiFi safety? VPNs? Backups?]</text>
+
+  <!-- Audience engagement section -->
+  <rect x="200" y="710" width="1520" height="140" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1"/>
+  <text x="960" y="760" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" fill="#ffd700">🎤 ASK THE AUDIENCE</text>
+  <text x="960" y="800" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#e0e0e8">"Put your hand up if you use the same password for everything"</text>
+  <text x="960" y="830" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Engaging the audience makes your presentation memorable — add questions!</text>
+
+  <!-- Instructions -->
+  <rect x="300" y="890" width="1320" height="100" rx="6" fill="#a855f7" opacity="0.06" stroke="#a855f7" stroke-dasharray="6,3"/>
+  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#a855f7">📝 Make tips actionable and simple — your audience should leave knowing exactly what to do</text>
+  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">You're now the experts! Share what you've learned to keep others safe</text>
+
+  <!-- Corner accents -->
+  <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+</svg>

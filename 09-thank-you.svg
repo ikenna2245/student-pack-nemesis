@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="splitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#12121a"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="leftClip">
+      <polygon points="0,0 130,0 95,200 0,200"/>
+    </clipPath>
+    <clipPath id="rightClip">
+      <polygon points="130,0 200,0 200,200 95,200"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Particles -->
+  <circle cx="200" cy="200" r="2" fill="#ff2d55" opacity="0.4">
+    <animate attributeName="cy" values="200;180;200" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="800" r="2.5" fill="#00d4ff" opacity="0.5">
+    <animate attributeName="cy" values="800;780;800" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1600" cy="250" r="2" fill="#a855f7" opacity="0.4">
+    <animate attributeName="cy" values="250;230;250" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1700" cy="700" r="2.5" fill="#ff2d55" opacity="0.5">
+    <animate attributeName="cy" values="700;680;700" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="500" r="1.5" fill="#ffd700" opacity="0.4">
+    <animate attributeName="cy" values="500;485;500" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1500" cy="450" r="1.5" fill="#ffd700" opacity="0.4">
+    <animate attributeName="cy" values="450;435;450" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Nemesis Icon -->
+  <g transform="translate(860, 120) scale(1.5)">
+    <circle cx="40" cy="40" r="38" fill="#0a0a0f" stroke="url(#splitGrad)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="r" values="38;40;38" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g clip-path="url(#leftClip)">
+      <circle cx="40" cy="40" r="36" fill="#1a0008"/>
+      <polygon points="22,18 18,4 32,14" fill="none" stroke="#ff2d55" stroke-width="1.2"/>
+      <circle cx="28" cy="34" r="4" fill="#ff2d55" filter="url(#glow)"/>
+      <circle cx="28" cy="34" r="1.5" fill="#fff" opacity="0.8"/>
+    </g>
+    <g clip-path="url(#rightClip)">
+      <circle cx="40" cy="40" r="36" fill="#001a2a"/>
+      <path d="M52 20 L66 28 L66 48 Q66 60 52 66 Q38 60 38 48 L38 28 Z" fill="none" stroke="#00d4ff" stroke-width="1.2" opacity="0.7"/>
+      <circle cx="52" cy="34" r="4" fill="#00d4ff" filter="url(#glow)"/>
+      <circle cx="52" cy="34" r="1.5" fill="#fff" opacity="0.8"/>
+    </g>
+    <line x1="52" y1="2" x2="38" y2="78" stroke="url(#splitGrad)" stroke-width="1.8" filter="url(#glow)"/>
+    <circle cx="45" cy="40" r="3" fill="#a855f7" filter="url(#glow)" opacity="0.8"/>
+  </g>
+
+  <!-- Main text -->
+  <text x="960" y="340" text-anchor="middle" font-family="'Courier New', monospace" font-size="56" font-weight="900" letter-spacing="6" fill="url(#splitGrad)" filter="url(#textGlow)">THANK YOU</text>
+
+  <text x="960" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#e0e0e8">Thanks for listening to our Nemesis debrief</text>
+
+  <!-- Thank you messages -->
+  <rect x="400" y="440" width="1120" height="200" rx="8" fill="#12121a" stroke="#2a2a3a"/>
+  <text x="960" y="490" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" letter-spacing="2">SPECIAL THANKS TO:</text>
+  <text x="960" y="540" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Host name] — for hosting us and teaching us so much</text>
+  <text x="960" y="575" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Team member names] — for being an awesome team</text>
+  <text x="960" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">BT Cyber Defence — for this incredible opportunity</text>
+
+  <!-- What's next for us -->
+  <text x="960" y="710" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#a855f7">WHAT'S NEXT FOR US:</text>
+
+  <rect x="200" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#ff2d55" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="440" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[What are you going to</text>
+  <text x="440" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">do next with this knowledge?]</text>
+
+  <rect x="720" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="960" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[Are you interested in</text>
+  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">a career in cybersecurity?]</text>
+
+  <rect x="1240" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="1480" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[What will you do to</text>
+  <text x="1480" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">stay safe online now?]</text>
+
+  <!-- Questions -->
+  <rect x="600" y="890" width="720" height="80" rx="8" fill="#0a0a0f" stroke="url(#splitGrad)" stroke-width="2" filter="url(#glow)"/>
+  <text x="960" y="938" text-anchor="middle" font-family="'Courier New', monospace" font-size="24" font-weight="900" fill="url(#splitGrad)">ANY QUESTIONS?</text>
+
+  <!-- Bottom -->
+  <text x="960" y="1030" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" fill="#8888a0" letter-spacing="2">NEMESIS — FIREWALL FRENZY — BT CYBER DEFENCE 2026</text>
+
+  <!-- Corner accents -->
+  <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+  <polyline points="30,1050 30,1000 80,1000" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,1050 1890,1000 1840,1000" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+</svg>

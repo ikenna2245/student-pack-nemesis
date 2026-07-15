@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nemesis — Student Presentation</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0a0f;
+      overflow: hidden;
+      cursor: none;
+      font-family: 'Courier New', monospace;
+      user-select: none;
+    }
+
+    #slideshow {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .slide.active {
+      opacity: 1;
+    }
+
+    .slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    #indicator {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 100;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    #indicator.visible {
+      opacity: 1;
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #2a2a3a;
+      border: 1px solid #8888a0;
+      transition: all 0.3s ease;
+    }
+
+    .dot.active {
+      background: #a855f7;
+      border-color: #a855f7;
+      box-shadow: 0 0 8px rgba(168, 85, 247, 0.6);
+      transform: scale(1.3);
+    }
+
+    #counter {
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      color: #8888a0;
+      font-size: 14px;
+      letter-spacing: 2px;
+      z-index: 100;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    #counter.visible {
+      opacity: 1;
+    }
+
+    #nav-hint {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(10, 10, 15, 0.9);
+      border: 1px solid #2a2a3a;
+      border-radius: 12px;
+      padding: 40px 60px;
+      text-align: center;
+      z-index: 200;
+      opacity: 1;
+      transition: opacity 0.8s ease;
+    }
+
+    #nav-hint.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    #nav-hint h2 {
+      color: #a855f7;
+      font-size: 18px;
+      letter-spacing: 4px;
+      margin-bottom: 20px;
+    }
+
+    #nav-hint p {
+      color: #e0e0e8;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    #nav-hint .key {
+      display: inline-block;
+      background: #1a1a26;
+      border: 1px solid #2a2a3a;
+      border-radius: 4px;
+      padding: 4px 10px;
+      margin: 2px;
+      color: #00d4ff;
+      font-size: 12px;
+    }
+
+    #nav-hint .or {
+      color: #8888a0;
+      margin: 0 6px;
+    }
+
+    #progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #ff2d55, #a855f7, #00d4ff);
+      transition: width 0.4s ease;
+      z-index: 100;
+      opacity: 0;
+      transition: width 0.4s ease, opacity 0.3s ease;
+    }
+
+    #progress.visible {
+      opacity: 1;
+    }
+
+    #cursor {
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #a855f7;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transition: transform 0.1s ease, border-color 0.2s ease;
+      mix-blend-mode: difference;
+    }
+
+    #cursor.clicking {
+      transform: scale(0.7);
+      border-color: #00d4ff;
+    }
+
+    /* Edit mode banner */
+    #edit-banner {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(168, 85, 247, 0.1);
+      border: 1px solid #a855f7;
+      border-radius: 6px;
+      padding: 8px 20px;
+      z-index: 150;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    #edit-banner.visible {
+      opacity: 1;
+    }
+
+    #edit-banner span {
+      color: #a855f7;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div id="cursor"></div>
+  <div id="progress"></div>
+  <div id="slideshow"></div>
+  <div id="indicator"></div>
+  <div id="counter"></div>
+
+  <div id="edit-banner">
+    <span>📝 STUDENT PACK — EDIT THE SVG FILES TO ADD YOUR CONTENT</span>
+  </div>
+
+  <div id="nav-hint">
+    <h2>YOUR PRESENTATION</h2>
+    <p>Edit the SVG slides to add your content, then present!</p>
+    <p style="margin-top:16px;"><span class="key">→</span><span class="or">/</span><span class="key">SPACE</span><span class="or">/</span><span class="key">LEFT CLICK</span> Next slide</p>
+    <p><span class="key">←</span><span class="or">/</span><span class="key">RIGHT CLICK</span> Previous slide</p>
+    <p><span class="key">F</span> Toggle fullscreen</p>
+    <p style="color:#8888a0; margin-top:16px; font-size:12px;">Controls auto-hide during presentation</p>
+    <p style="color:#a855f7; margin-top:12px; font-size:12px;">Click anywhere to begin</p>
+  </div>
+
+  <script>
+    const slides = [
+      '01-title.svg',
+      '02-about-us.svg',
+      '03-what-is-nemesis.svg',
+      '04-what-we-learned.svg',
+      '05-live-demo.svg',
+      '06-our-stats.svg',
+      '07-surprised-us.svg',
+      '08-cyber-tips.svg',
+      '09-thank-you.svg'
+    ];
+
+    let currentSlide = 0;
+    let uiTimeout = null;
+    let hintDismissed = false;
+
+    const slideshow = document.getElementById('slideshow');
+    const indicator = document.getElementById('indicator');
+    const counter = document.getElementById('counter');
+    const progress = document.getElementById('progress');
+    const navHint = document.getElementById('nav-hint');
+    const cursor = document.getElementById('cursor');
+    const editBanner = document.getElementById('edit-banner');
+
+    slides.forEach((file, i) => {
+      const div = document.createElement('div');
+      div.className = 'slide' + (i === 0 ? ' active' : '');
+      div.innerHTML = `<img src="${file}" alt="Slide ${i + 1}" draggable="false">`;
+      slideshow.appendChild(div);
+
+      const dot = document.createElement('div');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.addEventListener('click', (e) => {
+        e.stopPropagation();
+        goToSlide(i);
+      });
+      indicator.appendChild(dot);
+    });
+
+    function updateUI() {
+      document.querySelectorAll('.dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentSlide);
+      });
+      counter.textContent = `${currentSlide + 1} / ${slides.length}`;
+      const pct = ((currentSlide + 1) / slides.length) * 100;
+      progress.style.width = pct + '%';
+      document.querySelectorAll('.slide').forEach((slide, i) => {
+        slide.classList.toggle('active', i === currentSlide);
+      });
+    }
+
+    function goToSlide(index) {
+      if (index < 0) index = 0;
+      if (index >= slides.length) index = slides.length - 1;
+      currentSlide = index;
+      updateUI();
+      showUI();
+    }
+
+    function nextSlide() {
+      if (currentSlide < slides.length - 1) {
+        currentSlide++;
+        updateUI();
+        showUI();
+      }
+    }
+
+    function prevSlide() {
+      if (currentSlide > 0) {
+        currentSlide--;
+        updateUI();
+        showUI();
+      }
+    }
+
+    function showUI() {
+      indicator.classList.add('visible');
+      counter.classList.add('visible');
+      progress.classList.add('visible');
+      editBanner.classList.add('visible');
+      clearTimeout(uiTimeout);
+      uiTimeout = setTimeout(hideUI, 2500);
+    }
+
+    function hideUI() {
+      indicator.classList.remove('visible');
+      counter.classList.remove('visible');
+      progress.classList.remove('visible');
+      editBanner.classList.remove('visible');
+    }
+
+    function dismissHint() {
+      if (!hintDismissed) {
+        hintDismissed = true;
+        navHint.classList.add('hidden');
+        showUI();
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      dismissHint();
+      switch(e.key) {
+        case 'ArrowRight':
+        case ' ':
+        case 'Enter':
+          e.preventDefault();
+          nextSlide();
+          break;
+        case 'ArrowLeft':
+        case 'Backspace':
+          e.preventDefault();
+          prevSlide();
+          break;
+        case 'Home':
+          e.preventDefault();
+          goToSlide(0);
+          break;
+        case 'End':
+          e.preventDefault();
+          goToSlide(slides.length - 1);
+          break;
+        case 'f':
+        case 'F':
+          e.preventDefault();
+          toggleFullscreen();
+          break;
+        case 'Escape':
+          if (document.fullscreenElement) document.exitFullscreen();
+          break;
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('#indicator')) return;
+      dismissHint();
+      nextSlide();
+    });
+
+    document.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+      dismissHint();
+      prevSlide();
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      cursor.style.left = e.clientX - 10 + 'px';
+      cursor.style.top = e.clientY - 10 + 'px';
+      if (hintDismissed) showUI();
+    });
+
+    document.addEventListener('mousedown', () => cursor.classList.add('clicking'));
+    document.addEventListener('mouseup', () => cursor.classList.remove('clicking'));
+
+    function toggleFullscreen() {
+      if (!document.fullscreenElement) document.documentElement.requestFullscreen();
+      else document.exitFullscreen();
+    }
+
+    let touchStartX = 0;
+    document.addEventListener('touchstart', (e) => {
+      touchStartX = e.touches[0].clientX;
+      dismissHint();
+    });
+    document.addEventListener('touchend', (e) => {
+      const diff = touchStartX - e.changedTouches[0].clientX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) nextSlide();
+        else prevSlide();
+      }
+    });
+
+    updateUI();
+    setTimeout(dismissHint, 5000);
+  </script>
+</body>
+</html>

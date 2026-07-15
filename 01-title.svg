@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="splitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2d55"/>
+      <stop offset="45%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="50%" stop-color="#12121a"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="leftClip">
+      <polygon points="0,0 130,0 95,200 0,200"/>
+    </clipPath>
+    <clipPath id="rightClip">
+      <polygon points="130,0 200,0 200,200 95,200"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#bgGrad)"/>
+
+  <!-- Grid -->
+  <g opacity="0.03">
+    <line x1="0" y1="54" x2="1920" y2="54" stroke="#a855f7"/>
+    <line x1="0" y1="108" x2="1920" y2="108" stroke="#a855f7"/>
+    <line x1="0" y1="162" x2="1920" y2="162" stroke="#a855f7"/>
+    <line x1="0" y1="216" x2="1920" y2="216" stroke="#a855f7"/>
+    <line x1="0" y1="270" x2="1920" y2="270" stroke="#a855f7"/>
+    <line x1="0" y1="324" x2="1920" y2="324" stroke="#a855f7"/>
+    <line x1="0" y1="378" x2="1920" y2="378" stroke="#a855f7"/>
+    <line x1="0" y1="432" x2="1920" y2="432" stroke="#a855f7"/>
+    <line x1="0" y1="486" x2="1920" y2="486" stroke="#a855f7"/>
+    <line x1="0" y1="540" x2="1920" y2="540" stroke="#a855f7"/>
+    <line x1="0" y1="594" x2="1920" y2="594" stroke="#a855f7"/>
+    <line x1="0" y1="648" x2="1920" y2="648" stroke="#a855f7"/>
+    <line x1="0" y1="702" x2="1920" y2="702" stroke="#a855f7"/>
+    <line x1="0" y1="756" x2="1920" y2="756" stroke="#a855f7"/>
+    <line x1="96" y1="0" x2="96" y2="1080" stroke="#a855f7"/>
+    <line x1="192" y1="0" x2="192" y2="1080" stroke="#a855f7"/>
+    <line x1="288" y1="0" x2="288" y2="1080" stroke="#a855f7"/>
+    <line x1="384" y1="0" x2="384" y2="1080" stroke="#a855f7"/>
+    <line x1="480" y1="0" x2="480" y2="1080" stroke="#a855f7"/>
+    <line x1="576" y1="0" x2="576" y2="1080" stroke="#a855f7"/>
+    <line x1="672" y1="0" x2="672" y2="1080" stroke="#a855f7"/>
+    <line x1="768" y1="0" x2="768" y2="1080" stroke="#a855f7"/>
+    <line x1="864" y1="0" x2="864" y2="1080" stroke="#a855f7"/>
+    <line x1="960" y1="0" x2="960" y2="1080" stroke="#a855f7"/>
+    <line x1="1056" y1="0" x2="1056" y2="1080" stroke="#a855f7"/>
+    <line x1="1152" y1="0" x2="1152" y2="1080" stroke="#a855f7"/>
+    <line x1="1248" y1="0" x2="1248" y2="1080" stroke="#a855f7"/>
+    <line x1="1344" y1="0" x2="1344" y2="1080" stroke="#a855f7"/>
+    <line x1="1440" y1="0" x2="1440" y2="1080" stroke="#a855f7"/>
+    <line x1="1536" y1="0" x2="1536" y2="1080" stroke="#a855f7"/>
+    <line x1="1632" y1="0" x2="1632" y2="1080" stroke="#a855f7"/>
+    <line x1="1728" y1="0" x2="1728" y2="1080" stroke="#a855f7"/>
+    <line x1="1824" y1="0" x2="1824" y2="1080" stroke="#a855f7"/>
+  </g>
+
+  <!-- Scan line -->
+  <rect width="1920" height="3" fill="#a855f7" opacity="0.08">
+    <animate attributeName="y" from="-3" to="1080" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Nemesis Icon -->
+  <g transform="translate(810, 150) scale(2.5)">
+    <circle cx="40" cy="40" r="38" fill="#0a0a0f" stroke="url(#splitGrad)" stroke-width="1.5" filter="url(#glow)">
+      <animate attributeName="r" values="38;39;38" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g clip-path="url(#leftClip)">
+      <circle cx="40" cy="40" r="36" fill="#1a0008"/>
+      <polygon points="22,18 18,4 32,14" fill="none" stroke="#ff2d55" stroke-width="1.2"/>
+      <circle cx="28" cy="34" r="4" fill="#ff2d55" filter="url(#glow)"/>
+      <circle cx="28" cy="34" r="1.5" fill="#fff" opacity="0.8"/>
+    </g>
+    <g clip-path="url(#rightClip)">
+      <circle cx="40" cy="40" r="36" fill="#001a2a"/>
+      <path d="M52 20 L66 28 L66 48 Q66 60 52 66 Q38 60 38 48 L38 28 Z" fill="none" stroke="#00d4ff" stroke-width="1.2" opacity="0.7"/>
+      <circle cx="52" cy="34" r="4" fill="#00d4ff" filter="url(#glow)"/>
+      <circle cx="52" cy="34" r="1.5" fill="#fff" opacity="0.8"/>
+    </g>
+    <line x1="52" y1="2" x2="38" y2="78" stroke="url(#splitGrad)" stroke-width="1.8" filter="url(#glow)"/>
+    <circle cx="45" cy="40" r="3" fill="#a855f7" filter="url(#glow)" opacity="0.8"/>
+  </g>
+
+  <!-- Title -->
+  <text x="960" y="470" text-anchor="middle" font-family="'Courier New', monospace" font-size="64" font-weight="900" letter-spacing="10" fill="url(#splitGrad)" filter="url(#textGlow)">NEMESIS</text>
+  <text x="960" y="520" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" letter-spacing="8" fill="#8888a0">FIREWALL FRENZY</text>
+
+  <!-- Subtitle -->
+  <text x="960" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="38" fill="#e0e0e8">What We Learned</text>
+  <text x="960" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">BT Cyber Defence Work Experience — 2026</text>
+
+  <!-- Student info placeholder -->
+  <rect x="660" y="720" width="600" height="120" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="960" y="765" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" letter-spacing="2">PRESENTED BY</text>
+  <text x="960" y="805" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e0e0e8">[YOUR NAMES HERE]</text>
+  <text x="960" y="830" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Edit this slide with your team name and members</text>
+
+  <!-- Team badge placeholder -->
+  <rect x="860" y="870" width="200" height="40" rx="20" fill="#a855f7" opacity="0.1" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,4"/>
+  <text x="960" y="896" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">[TEAM NAME]</text>
+
+  <!-- Corner accents -->
+  <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+  <polyline points="30,1050 30,1000 80,1000" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
+  <polyline points="1890,1050 1890,1000 1840,1000" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+</svg>
