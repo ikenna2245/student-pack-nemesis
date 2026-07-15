@@ -31,9 +31,10 @@
   <text x="562.5" y="315" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="700" fill="#ff2d55">🔓 CRACK A PASSWORD</text>
   <text x="562.5" y="360" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="32" fill="#e0e0e8">Use hashcat to crack a weak password hash</text>
   <text x="562.5" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#8888a0">Show: hash input → wordlist attack → cracked!</text>
-  <text x="562.5" y="450" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#8888a0">Time: ~30 seconds</text>
+  <text x="562.5" y="600" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Time: ~30 seconds</text>
+  <text x="562.5" y="500" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#26ff00">$ hashcat </text>
   <rect x="412.5" y="625" width="300" height="50" rx="8" fill="#ff2d55" opacity="0.15"/>
-  <text x="562.5" y="660" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#ff2d55">HIGH IMPACT</text>
+  <text x="562.5" y="655" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#ff2d55">HIGH IMPACT</text>
 
   <!-- Demo 5: XSS -->
   <rect x="990" y="260" width="725" height="450" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
