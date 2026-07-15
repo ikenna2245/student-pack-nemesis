@@ -77,23 +77,23 @@
   <!-- Thank you messages -->
   <rect x="400" y="440" width="1120" height="200" rx="8" fill="#12121a" stroke="#2a2a3a"/>
   <text x="960" y="490" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" letter-spacing="2">SPECIAL THANKS TO:</text>
-  <text x="960" y="540" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Host name] — for hosting us and teaching us so much</text>
-  <text x="960" y="575" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Team member names] — for being an awesome team</text>
+  <text x="960" y="540" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Ikenna Umeh] — for hosting us and teaching us so much</text>
+  <text x="960" y="575" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">[Jake T, Alex M, Callum G, George G, Raimund O.] — for being an awesome team</text>
   <text x="960" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#e0e0e8">BT Cyber Defence — for this incredible opportunity</text>
 
   <!-- What's next for us -->
   <text x="960" y="710" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#a855f7">WHAT'S NEXT FOR US:</text>
 
   <rect x="200" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#ff2d55" stroke-width="1" stroke-dasharray="4,4"/>
-  <text x="440" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[What are you going to</text>
-  <text x="440" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">do next with this knowledge?]</text>
+  <text x="440" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">The knowlege embedded is definately benefitual.</text>
+  <text x="440" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0"></text>
 
   <rect x="720" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,4"/>
-  <text x="960" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[Are you interested in</text>
-  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">a career in cybersecurity?]</text>
+  <text x="960" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">We are all interested in IT</text>
+  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">we all pursue a career in cybersecurity?</text>
 
   <rect x="1240" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4,4"/>
-  <text x="1480" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">[What will you do to</text>
+  <text x="1480" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">We decided collectively to pursue further education</text>
   <text x="1480" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">stay safe online now?]</text>
 
   <!-- Questions -->
