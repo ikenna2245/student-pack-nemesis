@@ -51,7 +51,7 @@
   <text x="1335" y="300" text-anchor="middle" font-size="18">🔄</text>
   <text x="1385" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">TIP 3: UPDATES</text>
   <rect x="1300" y="310" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="1545" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">Always enable automatic updates across all your devices and apps to ensure you receive crucial security patches.</text>
+  <text x="1545" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">Always enable automatic updates across all your devices and apps to ensure safety.</text>
   <text x="1545" y="375" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">Updates fix the holes hackers use</text>
 
   <!-- Tip 4 -->
