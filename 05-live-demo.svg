@@ -31,7 +31,7 @@
   <text x="562.5" y="315" text-anchor="middle" font-family="'Courier New', monospace" font-size="40" font-weight="700" fill="#ff2d55">🔓 CRACK A PASSWORD</text>
   <text x="562.5" y="360" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e0e0e8">Use hashcat to crack a weak password hash</text>
   <text x="562.5" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Show: hash input → wordlist attack → cracked!</text>
-  <text x="562.5" y="600" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Time: ~30 seconds</text>
+  <text x="562.5" y="600" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Time: ~A few seconds</text>
   <text x="540" y="490" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="500" fill="#26ff00">$ hashcat -a 0 -m 0 hash.txt rockyou.txt</text>
   <text x="575" y="522" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="500" fill="#26ff00">5f4dcc3b5aa765d61d8327deb882cf99:password</text>
   <rect x="260" y="450" width="600" height="100" rx="8" fill="#080a08" opacity="0.3"/>
@@ -45,8 +45,12 @@
   <text x="1352.5" y="360" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e0e0e8">Inject a script into the search page</text>
   <text x="1352.5" y="400" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Show: search field → inject script → alert pops up</text>
   <text x="1352.5" y="600" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">Time: ~30 seconds</text>
-  <rect x="1235" y="625" width="200" height="50" rx="8" fill="#0077ff" opacity="0.15"/>
-  <text x="1352.5" y="655" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#0077ff">VISUAL</text>
+  <rect x="1100" y="420" width="500" height="50" rx="8" fill="#080a08" opacity="0.3"/>
+  <text x="1352.5" y="450" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="500" fill="#26ff00">'script alert("1"); /script'</text>
+  <text x="1352.5" y="500" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="500" fill="#26ff00">A page at Nemesis.Nemesis Says: 1</text>
+
+  <rect x="1252.5" y="625" width="200" height="50" rx="8" fill="#0077ff" opacity="0.15"/>
+  <text x="1352.5" y="657.5" text-anchor="middle" font-family="'Courier New', monospace" font-size="22" fill="#0077ff">VISUAL</text>
 
   <!-- Demo tips -->
   <rect x="200" y="750" width="1520" height="250" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1"/>
