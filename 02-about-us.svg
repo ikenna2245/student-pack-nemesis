@@ -30,11 +30,11 @@
   <rect x="160" y="200" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="340" cy="310" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="340" y="320" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="340" y="410" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="340" y="445" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
-  <text x="340" y="480" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="340" y="530" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="340" y="560" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="340" y="410" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Jake Turner]</text>
+  <text x="340" y="445" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[kesgrave high school]</text>
+  <text x="340" y="480" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team:IronShield]</text>
+  <text x="340" y="530" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[i am intrested in this topic]</text>
+  <text x="340" y="560" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[im not sure, however i am inrested in this topic.]</text>
 
   <!-- Member 2 -->
   <rect x="580" y="200" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
@@ -74,6 +74,10 @@
   <!-- What we came in knowing -->
   <text x="960" y="820" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing3" fill="#a855f7">BEFORE THIS WEEK WE KNEW:</text>
   
+  <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[we knew basic programming languages like python and the basics behing cybersecurity and online safety.]</text>
+  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[All of us prior to the work experience had to a certain degrees of interest in computer science and IT.]</text>
+  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">To be honest — it has been a cool way to express how much you've grown from going to school to working in a workspace!</text>
   <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"
   <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">hat did you know about cybersecurity before the week?]</text>
   <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">ere you interested in tech already? What got you here?]</text>
