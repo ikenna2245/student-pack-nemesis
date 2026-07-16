@@ -28,10 +28,10 @@
 
   <!-- Tips — big impactful cards -->
   <!-- Tip 1 -->
-  <rect x="100" y="220" width="550" height="200" rx="8" fill="#12121a" stroke="#f51183" stroke-width="1.5"/>
+  <rect x="100" y="220" width="550" height="200" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1.5"/>
   <circle cx="165" cy="290" r="30" fill="#ff2d55" opacity="0.15"/>
   <text x="165" y="300" text-anchor="middle" font-size="28">🔑</text>
-  <text x="215" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#f51183">TIP 1: PASSWORDS</text>
+  <text x="215" y="280" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ff2d55">TIP 1: PASSWORDS</text>
   <rect x="130" y="310" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="375" y="345" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">Pick 3 random words and 3 random numbers. Merge them all together and make a password.</text>
   <text x="375" y="375" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">e.g. lucky, apple, star, 164 = Lucky1Apple6Star4</text>
@@ -73,10 +73,10 @@
   <text x="960" y="615" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">e.g.Even if they get your password, 2FA stops them</text>
 
   <!-- Tip 6 (bonus) -->
-  <rect x="1270" y="460" width="550" height="200" rx="8" fill="#12121a" stroke="#eaff00" stroke-width="1.5" stroke-dasharray="4,4"/>
-  <circle cx="1335" cy="530" r="30" fill="#eaff00" opacity="0.15"/>
+  <rect x="1270" y="460" width="550" height="200" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <circle cx="1335" cy="530" r="30" fill="#00d4ff" opacity="0.15"/>
   <text x="1335" y="540" text-anchor="middle" font-size="28">➕</text>
-  <text x="1385" y="520" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#eaff00>TIP 6: VPN</text>
+  <text x="1385" y="520" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">TIP 6: VPN</text>
   <rect x="1300" y="550" width="490" height="80" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="1545" y="585" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">Always use vpns when on unsecure servers who may want your location</text>
   
