@@ -78,7 +78,7 @@
   <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[we knew basic programming languages like python and the basics behing cybersecurity and online safety.]</text>
   <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[All of us prior to the work experience had to a certain degrees of interest in computer science and IT.]</text>
   <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">To be honest — it has been a cool way to express how much you've grown from going to school to working in a workspace!</text>
-  <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"
+  <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">hat did you know about cybersecurity before the week?]</text>
   <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">ere you interested in tech already? What got you here?]</text>
   <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">Be honest — it's cool to show how much you've grown!</text>
