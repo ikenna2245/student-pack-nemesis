@@ -27,67 +27,53 @@
   <rect x="100" y="190" width="550" height="4" fill="#ff2d55"/>
   <text x="375" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ff2d55">1. VULNERABILITIES</text>
   <rect x="130" y="260" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="375" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Explain what vulnerabilities are]</text>
-  <text x="375" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Give an example you found]</text>
-  <text x="375" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Why is this dangerous?]</text>
+  <text x="375" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[a vulnerability is a weakness or flaw in software, hardware, or a system's design that could be exploited to cause unintended behavior]</text>
+  <text x="375" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[A website doesn't properly check what a user types into a login form. An attacker can take advantage of this flaw to gain unauthorized access]</text>
+  <text x="375" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[It can allow attackers to access accounts or sensitive information without permission, putting users' data and the system at risk]</text>
 
   <!-- Topic 2 -->
   <rect x="685" y="190" width="550" height="240" rx="8" fill="#12121a" stroke="#a855f7" stroke-width="1"/>
   <rect x="685" y="190" width="550" height="4" fill="#a855f7"/>
   <text x="960" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#a855f7">2. SQL INJECTION</text>
   <rect x="715" y="260" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="960" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Explain SQL injection in simple terms]</text>
-  <text x="960" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[How did you exploit it?]</text>
-  <text x="960" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[How do you fix it?]</text>
+  <text x="960" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="6" fill="#8888a0">[SQL injection is a vulnerability where a website or application doesn't safely handle user input, allowing someone to change the way a database query works.]</text>
+  <text x="960" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="6" fill="#8888a0">[An attacker exploits SQL injection by entering specially crafted input that a vulnerable application mistakenly treats as a database command instead of normal text.]</text>
+  <text x="960" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[I fixed it by using parameterized queries, which ensure user input is treated as data instead of part of a database command.]</text>
 
   <!-- Topic 3 -->
   <rect x="1270" y="190" width="550" height="240" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1"/>
   <rect x="1270" y="190" width="550" height="4" fill="#00d4ff"/>
   <text x="1545" y="240" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">3. PASSWORD SECURITY</text>
   <rect x="1300" y="260" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="1545" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What makes a weak password?]</text>
-  <text x="1545" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[How fast did you crack them?]</text>
-  <text x="1545" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What should people do instead?]</text>
+  <text x="1545" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="6" fill="#8888a0">[A weak password is a password that is easy to guess, such as a short password, a common word, or personal information. It can make an account easier for attackers to access.]]</text>
+  <text x="1545" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[Weak passwords can be cracked quickly because they are easy for attackers to guess using automated tools.]</text>
+  <text x="1545" y="370" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[People should use strong, unique passwords with a mix of letters, numbers, and symbols to make accounts harder to access]</text>
 
   <!-- Topic 4 -->
   <rect x="100" y="470" width="550" height="240" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1"/>
   <rect x="100" y="470" width="550" height="4" fill="#ffd700"/>
   <text x="375" y="520" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ffd700">4. NETWORK SCANNING</text>
   <rect x="130" y="540" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="375" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What is port scanning?]</text>
-  <text x="375" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What did nmap show you?]</text>
-  <text x="375" y="650" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Why is this the first step in hacking?]</text>
+  <text x="375" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">[Port scanning checks which ports on a computer or network are open and could have security risks.]</text>
+  <text x="375" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">[Nmap taught me how to find open ports and identify possible security weaknesses on a network.]</text>
+  <text x="375" y="650" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[It is the first step because attackers need to understand a system’s weaknesses before trying to exploit them.]</text>
 
   <!-- Topic 5 -->
   <rect x="685" y="470" width="550" height="240" rx="8" fill="#12121a" stroke="#ff2d55" stroke-width="1"/>
   <rect x="685" y="470" width="550" height="4" fill="#ff2d55"/>
   <text x="960" y="520" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#ff2d55">5. XSS ATTACKS</text>
   <rect x="715" y="540" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="960" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What is cross-site scripting?]</text>
-  <text x="960" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[How does it trick users?]</text>
-  <text x="960" y="650" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Where did you find it?]</text>
+  <text x="960" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[Cross-site scripting (XSS) is a vulnerability where attackers insert harmful code into a website, which can then run in other users’ browsers]</text>
+  <text x="960" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="10" fill="#8888a0">[It tricks users by making a trusted website run harmful code that the user does not expect.]</text>
+  <text x="960" y="650" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="9" fill="#8888a0">[It is commonly found in websites with poor input checking, where user-provided content is not properly filtered or secured.]</text>
 
   <!-- Topic 6 -->
   <rect x="1270" y="470" width="550" height="240" rx="8" fill="#12121a" stroke="#00d4ff" stroke-width="1"/>
   <rect x="1270" y="470" width="550" height="4" fill="#00d4ff"/>
   <text x="1545" y="520" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" font-weight="700" fill="#00d4ff">6. AI IN SECURITY</text>
   <rect x="1300" y="540" width="490" height="140" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="1545" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[How did you use AI agents?]</text>
-  <text x="1545" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[What could your agent do?]</text>
-  <text x="1545" y="650" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Is AI the future of cyber?]</text>
-
-  <!-- Instructions -->
-  <rect x="200" y="760" width="1520" height="80" rx="6" fill="#a855f7" opacity="0.06" stroke="#a855f7" stroke-dasharray="6,3"/>
-  <text x="960" y="800" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#a855f7">📝 Fill in the boxes above. Change the topics if you learned something different!</text>
-  <text x="960" y="825" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Explain things simply — your audience may not know anything about cybersecurity</text>
-
-  <!-- Tip -->
-  <rect x="400" y="880" width="1120" height="120" rx="8" fill="#12121a" stroke="#ffd700" stroke-width="1"/>
-  <text x="960" y="925" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#ffd700">💡 PRO TIP FOR YOUR PRESENTATION</text>
-  <text x="960" y="960" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#e0e0e8">Use analogies! "SQL injection is like tricking a bouncer by speaking their language"</text>
-  <text x="960" y="985" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Make complex ideas simple and relatable for your audience</text>
-
-  <!-- Corner accents -->
-  <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
-  <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
+  <text x="1545" y="590" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[I used AI agents to help explain concepts, find information, and understand how vulnerabilities work and how to fix them.]</text>
+  <text x="1545" y="620" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="8" fill="#8888a0">[The agent could help analyze information, explain security concepts, identify possible issues, and suggest ways to fix problems.]</text>
+  <text x="1545" y="650" text-anchor="middle" font-family="Segoe UI', sans-serif" font-size="8" fill="#8888a0">[AI is the future of cybersecurity because it can help detect threats, find weaknesses, and protect systems faster. ]</text>
 </svg>
+  
