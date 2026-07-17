@@ -90,11 +90,11 @@
 
   <rect x="720" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,4"/>
   <text x="960" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">We are all interested in IT</text>
-  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">we all pursue a career in cybersecurity?</text>
+  <text x="960" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">we all pursue a career in cybersecurity</text>
 
   <rect x="1240" y="740" width="480" height="100" rx="6" fill="#12121a" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4,4"/>
   <text x="1480" y="785" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">We decided collectively to pursue further education</text>
-  <text x="1480" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">stay safe online now?]</text>
+  <text x="1480" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">stay safe online now.</text>
 
   <!-- Questions -->
   <rect x="600" y="890" width="720" height="80" rx="8" fill="#0a0a0f" stroke="url(#splitGrad)" stroke-width="2" filter="url(#glow)"/>
