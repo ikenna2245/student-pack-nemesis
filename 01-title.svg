@@ -72,7 +72,7 @@
   </rect>
 
   <!-- Nemesis Icon -->
-  <g transform="translate(810, 150) scale(2.5)">
+  <g transform="translate(855, 175) scale(2.5)">
     <circle cx="40" cy="40" r="38" fill="#0a0a0f" stroke="url(#splitGrad)" stroke-width="1.5" filter="url(#glow)">
       <animate attributeName="r" values="38;39;38" dur="3s" repeatCount="indefinite"/>
     </circle>
@@ -88,7 +88,7 @@
       <circle cx="52" cy="34" r="4" fill="#00d4ff" filter="url(#glow)"/>
       <circle cx="52" cy="34" r="1.5" fill="#fff" opacity="0.8"/>
     </g>
-    <line x1="52" y1="2" x2="38" y2="78" stroke="url(#splitGrad)" stroke-width="1.8" filter="url(#glow)"/>
+    <line x1="52.433" y1="4.165" x2="37.335" y2="78.285" stroke="url(#splitGrad)" stroke-width="1.8" filter="url(#glow)"/>
     <circle cx="45" cy="40" r="3" fill="#a855f7" filter="url(#glow)" opacity="0.8"/>
   </g>
 
@@ -98,18 +98,18 @@
 
   <!-- Subtitle -->
   <text x="960" y="610" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="38" fill="#e0e0e8">What We Learned</text>
-  <text x="960" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">BT Cyber Defence Work Experience — 2026</text>
+  <text x="960" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" fill="#8888a0">BT Cyber Defence Work Experience 2026</text>
 
   <!-- Student info placeholder -->
-  <rect x="660" y="720" width="600" height="120" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
+  <rect x="660" y="720" width="600" height="142.5" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="960" y="765" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#a855f7" letter-spacing="2">PRESENTED BY</text>
-  <text x="960" y="805" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e0e0e8">[YOUR NAMES HERE]</text>
-  <text x="960" y="830" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">Edit this slide with your team name and members</text>
+  <text x="960" y="805" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="28" fill="#e0e0e8">George Garfield, Alex Mihali, Jake Turner, 
+  <tspan x="950" dy="1em"> ​</tspan>
+  Callum Guilder and Raimund Okuchaba</text>
 
   <!-- Team badge placeholder -->
   <rect x="860" y="870" width="200" height="40" rx="20" fill="#a855f7" opacity="0.1" stroke="#a855f7" stroke-width="1" stroke-dasharray="4,4"/>
-  <text x="960" y="896" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">[TEAM NAME]</text>
-
+  <text x="960" y="893" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#a855f7">Sausage Rolls </text>
   <!-- Corner accents -->
   <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
   <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
