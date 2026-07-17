@@ -54,12 +54,6 @@
   <text x="1410" y="720" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0"></text>
   <text x="1410" y="760" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">— Alex M</text>
   <text x="1410" y="810" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="13" fill="#8888a0"></text>
-
-  <!-- Bottom note -->
-  <rect x="400" y="910" width="1120" height="80" rx="6" fill="#a855f7" opacity="0.06" stroke="#a855f7" stroke-dasharray="6,3"/>
-  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#a855f7"></text>
-  <text x="960" y="975" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0"></text>
-
   <!-- Corner accents -->
   <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
   <polyline points="1890,30 1890,80 1840,80" fill="none" stroke="#00d4ff" stroke-width="2" opacity="0.4"/>
