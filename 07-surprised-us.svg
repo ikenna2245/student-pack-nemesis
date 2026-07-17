@@ -57,8 +57,8 @@
 
   <!-- Bottom note -->
   <rect x="400" y="910" width="1120" height="80" rx="6" fill="#a855f7" opacity="0.06" stroke="#a855f7" stroke-dasharray="6,3"/>
-  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#a855f7">📝 Each person writes their own — make it personal and genuine</text>
-  <text x="960" y="975" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">This is the most engaging part for the audience — real reactions land better than facts</text>
+  <text x="960" y="945" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#a855f7"></text>
+  <text x="960" y="975" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0"></text>
 
   <!-- Corner accents -->
   <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
