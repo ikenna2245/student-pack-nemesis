@@ -27,7 +27,7 @@
   <text x="510" y="270" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#ff2d55">😮 SURPRISE #1</text>
   <rect x="140" y="290" width="740" height="200" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="510" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"I found out how useful AI can actually be"</text>
-  <text x="510" y="380" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Why was it unexpected?]</text>
+  <text x="510" y="380" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0"></text>
   <text x="510" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">— George Garfield</text>
  
 
@@ -35,7 +35,7 @@
   <text x="1410" y="270" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#00d4ff">😮 SURPRISE #2</text>
   <rect x="1040" y="290" width="740" height="200" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="1410" y="340" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"How often people can be the deciding factor."</text>
-  <text x="1410" y="380" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Why was it unexpected?]</text>
+  <text x="1410" y="380" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0"></text>
   <text x="1410" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">— Callum Guilder</text>
   
 
@@ -43,7 +43,7 @@
   <text x="510" y="610" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#a855f7">😮 SURPRISE #3</text>
   <rect x="140" y="630" width="740" height="200" rx="4" fill="#0a0a0f" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="510" y="680" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"How easy it actually is..."</text>
-  <text x="510" y="720" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0">[Why was it unexpected?]</text>
+  <text x="510" y="720" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" fill="#8888a0"</text>
   <text x="510" y="760" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">— Alex Mihali</text>
  
 
