@@ -30,59 +30,58 @@
   <rect x="10" y="300" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="190" cy="410" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="190" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="190" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="190" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
+  <text x="190" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">Callum Guilder</text>
+  <text x="190" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Kesgrave Highschool</text>
   <text x="190" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="190" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="190" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="190" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"I play football"</text>
+  <text x="190" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"I havent decided yet"</text>
 
   <!-- Member 2 -->
   <rect x="400" y="300" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="580" cy="410" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="580" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="580" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="580" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
-  <text x="580" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="580" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="580" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="580" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">George Garfield</text>
+  <text x="580" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Kesgrave Highschool</text>
+  <text x="580" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: IronShield]</text>
+  <text x="580" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"I do Judo"</text>
+  <text x="580" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"Something in the financial sector"</text>
 
   <!-- Member 3 -->
   <rect x="790" y="300" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="970" cy="410" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="970" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="970" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="970" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
-  <text x="970" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="970" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="970" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="970" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">Jake Turner</text>
+  <text x="970" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Kesgrave Highschool</text>
+  <text x="970" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: IronShield]</text>
+  <text x="970" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"I like Computers"</text>
+  <text x="970" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"Software Engineer"</text>
 
   <!-- Member 4 -->
   <rect x="1180" y="300" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="1360" cy="410" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="1360" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="1360" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="1360" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
-  <text x="1360" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="1360" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="1360" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="1360" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">Alex Mihali</text>
+  <text x="1360" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Kesgrave Highschool</text>
+  <text x="1360" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox]</text>
+  <text x="1360" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">I can code</text>
+  <text x="1360" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"probably something in this field"</text>
 
 <!-- Member five -->
   <rect x="1570" y="300" width="360" height="380" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <circle cx="1750" cy="410" r="60" fill="#1a1a26" stroke="#a855f7" stroke-width="1.5" stroke-dasharray="4,4"/>
   <text x="1750" y="420" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="24" fill="#8888a0">📷</text>
-  <text x="1750" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">[Name]</text>
-  <text x="1750" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">[School]</text>
-  <text x="1750" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox / IronShield]</text>
-  <text x="1750" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[Fun fact about you]</text>
-  <text x="1750" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">[What you want to be]</text>
+  <text x="1750" y="510" text-anchor="middle" font-family="'Courier New', monospace" font-size="20" font-weight="700" fill="#e0e0e8">Reimund Okuchaba</text>
+  <text x="1750" y="545" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8888a0">Kesgrave Highschool</text>
+  <text x="1750" y="580" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">[Team: ShadowFox]</text>
+  <text x="1750" y="630" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"The Terminal isnt that complex"</text>
+  <text x="1750" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"Ethical Hacker [Pentester]"</text>
 
   <!-- What we came in knowing -->
   <text x="960" y="820" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#a855f7">BEFORE THIS WEEK WE KNEW:</text>
   
   <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
-  <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[What did you know about cybersecurity before the week?]</text>
-  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">[Were you interested in tech already? What got you here?]</text>
-  <text x="960" y="965" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#a855f7">Be honest — it's cool to show how much you've grown!</text>
+  <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"Nothing", "Very little", "I knew the Basics", "I've delved into this topic for years", "I knew a bunch about Blue teaming, however I lacked experience with RED teaming."</text>
+  <text x="960" y="935" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"A little bit", "I liked computing, But I've never went to this degree", "Very interested", "I've been very interested since the age of three", "Extremely"</text>
 
   <!-- Corner accents -->
   <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>
