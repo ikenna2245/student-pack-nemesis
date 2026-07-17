@@ -19,7 +19,7 @@
 
   <!-- Header -->
   <text x="960" y="80" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" letter-spacing="6" fill="#8888a0">KEY LEARNINGS</text>
-  <text x="960" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="44" font-weight="900" letter-spacing="4" fill="url(#splitGrad)" filter="url(#textGlow)">WHAT WE LEARNED</text>
+  <text x="960" y="130" text-anchor="middle" font-family="'Courier New', monospace" font-size="44" font-weight="900" letter-spacing="4" fill="url(#splitGrad)" filter="url(#textGlow)">WHAT WE LEARNED!!</text>
 
   <!-- Learning topic cards — students fill these in -->
   <!-- Topic 1 -->
