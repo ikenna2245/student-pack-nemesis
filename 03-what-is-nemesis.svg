@@ -75,10 +75,10 @@
   <!-- Student note -->
   <rect x="300" y="760" width="1320" height="240" rx="8" fill="#a855f7" opacity="0.06" stroke="#a855f7" stroke-width="1" stroke-dasharray="6,3"/>
   <text x="960" y="810" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" fill="#a855f7">📝 YOUR NOTES — EXPLAIN TO THE AUDIENCE:</text>
-  <text x="340" y="860" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• What was Nemesis and why did BT build it?</text>
-  <text x="340" y="895" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• What's the difference between red team and blue team?</text>
-  <text x="340" y="930" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• Why do companies need both attackers AND defenders?</text>
-  <text x="340" y="965" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• Which team were you on and why?</text>
+  <text x="340" y="860" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• Nemesis is something BT made to teach young people, like us, how hackers hack into secure - and not secure sights. It taught us to think like a hacker.</text>
+  <text x="340" y="895" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• =Red team is shadowfox, they are the hackers. Blue team are ironshield, they nare defenders.</text>
+  <text x="340" y="930" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• Companies need attackers in order to test their websites and they need defenders to make their sights secure.</text>
+  <text x="340" y="965" font-family="'Segoe UI', sans-serif" font-size="17" fill="#8888a0">• I was on ironshield as the personality test reviewed me and said thats where i belong.</text>
 
   <!-- Corner accents -->
   <polyline points="30,30 30,80 80,80" fill="none" stroke="#ff2d55" stroke-width="2" opacity="0.4"/>

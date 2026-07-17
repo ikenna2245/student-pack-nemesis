@@ -77,7 +77,7 @@
   <text x="1750" y="660" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8888a0">"Ethical Hacker [Pentester]"</text>
 
   <!-- What we came in knowing -->
-  <text x="960" y="820" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing="3" fill="#a855f7">BEFORE THIS WEEK WE KNEW:</text>
+  <text x="960" y="820" text-anchor="middle" font-family="'Courier New', monospace" font-size="16" letter-spacing3" fill="#a855f7">BEFORE THIS WEEK WE KNEW:</text>
   
   <rect x="300" y="850" width="1320" height="130" rx="8" fill="#12121a" stroke="#2a2a3a" stroke-dasharray="4,4"/>
   <text x="960" y="900" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="18" fill="#8888a0">"Nothing", "Very little", "I knew the Basics", "I've delved into this topic for years", "I knew a bunch about Blue teaming, however I lacked experience with RED teaming."</text>
